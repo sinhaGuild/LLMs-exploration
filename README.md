@@ -74,6 +74,7 @@ heroku create <appName> # First time only
 heroku git:remote -a <appName> # add remote config for heroku
 heroku config:set OPENAI_API_KEY='sk-2344720uu23d0u29384274b840c' # set environment variables
 git add -A && git commit -m 'msg' # git lifecycle
+heroku stack:set container
 git push heroku main # push to heroku
 heroku apps:destroy --app <appName>
 
