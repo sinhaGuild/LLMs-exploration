@@ -1,18 +1,19 @@
-# Using Transformer Models like ChatGPT to Introspect Databases.
+# Large Language Model chaining and transform-agents
+
+Core objective is to explore recent advancements in `Big-Model` chaining to augment results. We will implement some core design paradigms as an endpoint to allow further experimentation with chained-microservices at a later stage. Every endpoint has a `reference paper` which it implements alongwith sample queries to test responses.
 
 ## Packages used
 
 - langchain
 - fastapi
 - openAPI
-- seraphAPI
-- dotenv (environment variables)
+- google-search
+- custom-google-search
+- wolfram-alpha
+- wikipedia
+- serpAPI
+- python-dotenv (environment variables)
 - heroku CLI
-
-## Use cases
-
-1. Natural language conversation with a relational database.
-2. Conversations beyond ChatGPTs programming.
 
 ## Endpoints
 
