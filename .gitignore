@@ -4,3 +4,4 @@
 */.env*
 local.requirements*.DS_Store
 */**/__pycache__
+local.requirements.txt
