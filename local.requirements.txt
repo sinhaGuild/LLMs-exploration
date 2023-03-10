@@ -1,0 +1,12 @@
+fastapi
+pydantic
+uvicorn
+langchain
+openai
+python-dotenv
+google-search-results
+wikipedia
+huggingface_hub
+cohere
+google-api-python-client
+wolframalpha

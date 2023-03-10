@@ -1,0 +1,6 @@
+services:
+  language-model:
+    platform: linux/amd64
+    build: .
+    ports:
+      - "8080:80"
